@@ -19,12 +19,6 @@ const CheckoutForm = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setShowSuccessMessage(true);
-    setFirstName('');
-    setLastName('');
-    setAddress('');
-    setCity('');
-    setState('');
-    setZip('');
   };
 
   return (
